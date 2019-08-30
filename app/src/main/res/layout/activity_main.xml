@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.lyg.l.getcertificationnumber.MainActivity">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Mainpage_listview_sms"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Mainpage_imagebtn_refresh"
+        android:layout_marginTop="20px" />
+
+    <ImageButton
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="Refresh"
+        android:id="@+id/Mainpage_imagebtn_refresh"
+        android:src="@android:drawable/stat_notify_sync"
+        android:background="#adadad"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
